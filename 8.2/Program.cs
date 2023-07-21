@@ -46,7 +46,7 @@ namespace _8._2
                     PushPhoneNumber(int.Parse(t[0]), t[1]);
                 }
             }
-            catch (Exception e)
+            catch
             {
                 Console.WriteLine("Неправильный ввод");
             }
